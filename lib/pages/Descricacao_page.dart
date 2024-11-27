@@ -108,7 +108,7 @@ class DISCRIPTION_MEDIO_RISCO extends StatelessWidget {
           ],
         ),
       ),
-      backgroundColor: const Color.fromARGB(255, 190, 175, 36), // Cor de fundo clara
+      backgroundColor: const Color.fromARGB(255, 207, 189, 29), // Cor de fundo clara
     );
   }
 }

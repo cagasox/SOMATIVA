@@ -24,8 +24,9 @@ class _GoogleMapsFlutterState extends State<GoogleMapsFlutter> {
   final List<Widget> locationDescriptions = [const DISCRIPTION_ALTO_RISCO(), const DISCRIPTION_MEDIO_RISCO(),const DISCRIPTION_BAIXO_RISCO() ]; // Atualização para usar widgets
 
   final List<String> locationImages = [
-    "https://imgs.search.brave.com/hMgEspYNZw3vsej4ugzJB227HNaFwErw1XZNDCE3O1Q/rs:fit:860:0:0:0/g:ce/aHR0cDovL3d3dy5v/bmdzYnJhc2lsLmNv/bS5ici9pbWFnZXMv/b25ncy1kZS1jcmlh/bmNhcy5qcGc",
-    "https://imgs.search.brave.com/Q5LwmAOVKZb7mNtX7haSs1tvohCHVC7vSHH5d3XxTKA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jbGFz/c2ljLmV4YW1lLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMC9Gb3RvLTNf/T2ZpY2luYS1jb20t/Y3JpYW5jYXMtbmEt/UGluYWNvdGVjYV9E/aXZ1bGdhY2FvLmpw/Zz9xdWFsaXR5PTcw/JnN0cmlwPWluZm8m/dz0xMDI0dW5kZWZp/bmVk",
+    "https://imgs.search.brave.com/A8nkOw435mldms797E3g6pWoiBQChH_jcQyHl02zuoQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29sb3JoZXhhLmNv/bS9mZjI4MDAucG5n",
+    "https://www.colorhexa.com/ffa856.png",
+    "https://imgs.search.brave.com/aLcS9WbGiNe9M24Fbcg_RwgQ3vgjLzRrrLp62qDwQSk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29sb3Jjb21ib3Mu/Y29tL2ltYWdlcy9j/b2xvcnMvaGV4L0ZG/RkYwMC5wbmc"
   ];
 
   @override
