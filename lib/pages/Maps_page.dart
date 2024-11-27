@@ -15,12 +15,13 @@ class _GoogleMapsFlutterState extends State<GoogleMapsFlutter> {
   Set<Marker> markers = {}; // Marcadores.
 
   final List<LatLng> latlongPoint = [
-    const LatLng(-22.858249818019033, -47.04822860807837), // ABRAES
-    const LatLng(-22.900747199053033, -47.061201838471305), // IAPI
+    const LatLng(-22.858249818019033, -47.04822860807837), // RISCO
+    const LatLng(-22.900747199053033, -47.061201838471305), // MODERADO
+    const LatLng(-22.901745780740747, -47.243443985235665),//RISCO
   ];
 
-  final List<String> locationNames = ["ABRAES", "IAPI"];
-  final List<Widget> locationDescriptions = [const DISCRIPTION_ABRAES(), const DISCRIPTION_IAPI()]; // Atualização para usar widgets
+  final List<String> locationNames = ["ALTO RISCO", "MEDIO RICO", "BAIXO RISCO"];
+  final List<Widget> locationDescriptions = [const DISCRIPTION_ALTO_RISCO(), const DISCRIPTION_MEDIO_RISCO(),const DISCRIPTION_BAIXO_RISCO() ]; // Atualização para usar widgets
 
   final List<String> locationImages = [
     "https://imgs.search.brave.com/hMgEspYNZw3vsej4ugzJB227HNaFwErw1XZNDCE3O1Q/rs:fit:860:0:0:0/g:ce/aHR0cDovL3d3dy5v/bmdzYnJhc2lsLmNv/bS5ici9pbWFnZXMv/b25ncy1kZS1jcmlh/bmNhcy5qcGc",
